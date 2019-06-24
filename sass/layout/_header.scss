@@ -1,0 +1,36 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 75%, 0% 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 75%, 0% 100%, 0 0); 
+  
+    &__logo-box {
+
+      
+      position: absolute;
+      top: 4rem;
+      left: 4rem; 
+}
+
+  
+    &__logo {
+        height: 30rem; 
+        width: 60rem;
+        padding: 0px;
+        animation-name: moveInTop;
+        animation-fill-mode: both;
+        animation-duration: 1.3s;
+
+        animation-timing-function: ease-in;}
+  
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; }        
+    
+  }
