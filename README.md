@@ -1,1 +1,1 @@
-# myEden
+# myEden Website Project
